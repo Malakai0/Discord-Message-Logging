@@ -1,0 +1,5 @@
+Client:on('messageCreate',function(message)
+    if message.guild then
+        log(message,'server')
+    end
+end)

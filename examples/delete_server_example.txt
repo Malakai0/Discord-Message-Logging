@@ -1,0 +1,5 @@
+Client:on('messageDelete',function(message)
+    if message.guild then
+        log(message,'delete','server')
+    end
+end)

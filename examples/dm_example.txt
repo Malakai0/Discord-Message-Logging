@@ -1,0 +1,5 @@
+Client:on('messageCreate',function(message)
+    if not message.guild then
+        log(message,'dm')
+    end
+end)
